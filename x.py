@@ -9,7 +9,7 @@ from Cang.akad.ttypes import ContentType as Type
 from youtube_dl import YoutubeDL
 import subprocess, youtube_dl
 import subprocess as cmd
-import os
+import os,sys
 
 client = LINE()
 #client = LINE("")
