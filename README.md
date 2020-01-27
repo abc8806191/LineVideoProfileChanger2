@@ -16,7 +16,7 @@ pip install humanize
 
 pip install --upgrade youtube_dl
 
-git clone https://github.com/vincent9579/LineVideoProfileChanger.git
+git clone https://github.com/vincent9579/LineVideoProfileChanger2.git
 
 python x.py
 
