@@ -11,7 +11,7 @@ import subprocess, youtube_dl
 import subprocess as cmd
 import os,sys
 
-client = LINE("ENY3N3MWReH42DHFGzA7.TVNvnXpfHP8nEoCF6/e4nW.LGgt5BnjW6SohFoI7d2CPBl++MTh/1qcqlHWYxWap8A=")
+client = LINE("ENBOTfV0bOKjQoH0DU9e.Xikd0WruOBff6qc0nEPS3G.PRH/rEQ7tn04gtMYtTWcc+3q3OJMD3I8QyKNikZUqJ8=")
 #client = LINE("")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
