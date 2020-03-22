@@ -66,16 +66,12 @@ def clientBot(op):
                         else:
                             cmd = command(text)
                             if cmd == "help":
-                                helpmsg = "╔══[ LineVideoProfileChanger V3.1]\n"
+                                helpmsg = "╔══[更換頭貼影片系統]\n"
                                 helpmsg += "╠可用命令:\n"
                                 helpmsg += "╠Cvp:「YT影片連結」 (注意C大寫)\n " 
                                 helpmsg += "╠cp (更換現有的影片)\n"
                                 helpmsg += "╠══[ 使用方法 ]\n"
                                 helpmsg += "╠cp 將影片放置在跟x.py同一目錄下(檔名為Video.mp4)\n"
-                                helpmsg += "╠══[ 關於本bot ]\n"
-                                helpmsg += "╠製作:好想大力抱住正太ㄛ\n"
-                                helpmsg += "╠有任何Bug及疑問可至巴哈小屋提問\n"
-                                helpmsg += "╠Link：https://home.gamer.com.tw/creationDetail.php?sn=4536583\n"
                                 helpmsg += "╚══[ 感謝您的使用 ]"
                                 client.sendMessage(to,str(helpmsg))
                             elif msg.text.startswith("Cvp:"):
